@@ -107,6 +107,8 @@ void loop() {
     // - GET /door.html
     // - GET /led
     // - GET /led.html
+    // - GET /led/on
+    // - GET /led/off
 
     int page_id = 0;
 
