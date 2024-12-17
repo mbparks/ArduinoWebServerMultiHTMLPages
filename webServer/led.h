@@ -17,10 +17,12 @@ const char *HTML_CONTENT_LED = R""""(
 </head>
 <body>
     <h1>LED Page  -->|--  </h1>
+    <h3>
     <p style=\"font-size:7vw;\">Click <a href="/led/on">here</a> turn the LED on<br></p>
     <p style=\"font-size:7vw;\">Click <a href="/led/off">here</a> turn the LED off<br></p>
     <p>LED State: <span style="color: LED_COLOR_MARKER;"><b>LED_STATE_MARKER</b></span></p>
     <p>Go back to the <a href="/">homepage</a>.</p>
+    </h3>
 </body>
 </html>
 )"""";

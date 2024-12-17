@@ -16,7 +16,6 @@ const char *HTML_CONTENT_HOME = R""""(
     <title>Home Page</title>
 </head>
 <body>
-    <h1>Welcome to the Home Page</h1>
 <br>                      
 _░▒▓██████▓▒░_░▒▓███████▓▒░░▒▓██████▓▒░__<br>
 ░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░______░▒▓█▓▒░░▒▓█▓▒░_<br>
@@ -26,11 +25,14 @@ _░▒▓██████▓▒░_░▒▓███████▓▒░░
 ░▒▓█▓▒░░▒▓█▓▒░______░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░_<br>
 _░▒▓██████▓▒░░▒▓███████▓▒░_░▒▓██████▓▒░__<br>
 <br>
-    <ul>
-        <li><a href="/led">LED Page</a></li>
-        <li><a href="/temperature">Temperature Page</a></li>
-        <li><a href="/door">Door Page</a></li>
-    </ul>
+<h1>Welcome to the Control Page</h1>
+<br><h3>
+  <ul>
+      <li><a href="/led">LED Page</a></li><br>
+      <li><a href="/temperature">Temperature Page</a></li><br>
+      <li><a href="/door">Door Page</a></li>
+  </ul>
+  </h3>
 </body>
 </html>
 )"""";
